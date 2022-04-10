@@ -25,7 +25,7 @@ Go
 
 Insert into Address_Book_Table 
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
-values('erina','Thiparapu','torento','torento','Ontario',205532,'918978977310','manuthiparapu@gmail.com')
+values('erina','Disco','torento','torento','Ontario',205532,'918978977310','ErinaDisco@gmail.com')
 Go
 
 Update Address_Book_Table -- UC-4 Editing Data using FirstName
