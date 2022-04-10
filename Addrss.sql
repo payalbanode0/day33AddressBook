@@ -93,3 +93,11 @@ select count(*)--UC-10-Count-Relation Type
 from Address_Book_Table
 where RelationType='Family'
 Go
+
+Update Address_Book_Table -- UC -11 Family and Friend
+Set RelationType='Family''Friend'
+Where FirstName='Erina'
+Go
+
+select *
+From Address_Book_Table
