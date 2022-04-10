@@ -15,19 +15,15 @@ email varchar(50)
 
 Insert into Address_Book_Table --UC-3 Insert Data to Table
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
-values('Manoj','Thiparapu','25-4-710 warangal','Kazipet','Telangana',506003,'918106529025','manojthiparapu@gmail.com')
+values('Payal','banode','16-8-1994 nagpur','nagpur','maharashtra',440034,'918106529025','payalbanode0@gmail.com')
 Go
 
 Insert into Address_Book_Table --UC-3 Insert Data to Table
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
-values('Laxmi','Thiparapu','25-4-710 warangal','Kazipet','Telangana',506003,'918008144657','laxmithiparapu@gmail.com')
+values('pooja','monase','16-8-1994 nagpur','nagpur','maharashtra',440034,'9181042562','poojamonase@gmail.com')
 Go
 
-Insert into Address_Book_Table --UC-3 Insert Data to Table
+Insert into Address_Book_Table 
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
-values('Manu','Thiparapu','torento','torento','Ontario',205532,'918978977310','manuthiparapu@gmail.com')
-Go
-
-Select * 
-from Address_Book_Table
+values('erina','Thiparapu','torento','torento','Ontario',205532,'918978977310','manuthiparapu@gmail.com')
 Go
