@@ -87,3 +87,9 @@ Go
 Select *
 From Address_Book_Table
 Go
+
+
+select count(*)--UC-10-Count-Relation Type
+from Address_Book_Table
+where RelationType='Family'
+Go
