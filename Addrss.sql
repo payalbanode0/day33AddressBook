@@ -25,5 +25,5 @@ Go
 
 Insert into Address_Book_Table 
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
-values('erina','Thiparapu','torento','torento','Ontario',205532,'918978977310','manuthiparapu@gmail.com')
+values('erina','disco','torento','torento','Ontario',205534,'9189789887','erinadisco@gmail.com')
 Go
