@@ -48,3 +48,12 @@ select * --Retrieve Using State
 from Address_Book_Table
 Where _State='Maharashtra'
 Go
+select count(*)--UC-7-Count
+from Address_Book_Table
+where City='Nagpur'
+Go
+
+select count(*)--UC-7-Count
+from Address_Book_Table
+where _State='Mahrashtra'
+Go
