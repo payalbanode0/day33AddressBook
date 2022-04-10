@@ -18,14 +18,19 @@ Insert into Address_Book_Table --UC-3 Insert Data to Table
 values('Manoj','Thiparapu','25-4-710 warangal','Kazipet','Telangana',506003,'918106529025','manojthiparapu@gmail.com')
 Go
 
-Insert into Address_Book_Table --UC-3 Insert Data to Table
+Insert into Address_Book_Table 
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
 values('Laxmi','Thiparapu','25-4-710 warangal','Kazipet','Telangana',506003,'918008144657','laxmithiparapu@gmail.com')
 Go
 
-Insert into Address_Book_Table --UC-3 Insert Data to Table
+Insert into Address_Book_Table 
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
 values('Manu','Thiparapu','torento','torento','Ontario',205532,'918978977310','manuthiparapu@gmail.com')
+Go
+
+Update Address_Book_Table -- UC-4 Editing Data using FirstName
+Set City='Warangal'
+where FirstName='Manoj'
 Go
 
 Select * 
