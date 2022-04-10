@@ -29,8 +29,8 @@ values('erina','Thiparapu','torento','torento','Ontario',205532,'918978977310','
 Go
 
 Update Address_Book_Table -- UC-4 Editing Data using FirstName
-Set City='Warangal'
-where FirstName='Manoj'
+Set City='Nagpur'
+where FirstName='Payal'
 Go
 
 Select * 
