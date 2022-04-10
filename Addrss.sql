@@ -57,3 +57,15 @@ select count(*)--UC-7-Count
 from Address_Book_Table
 where _State='Mahrashtra'
 Go
+
+select * -- UC-8 Sort FirstName using State 
+From Address_Book_Table
+Where _State='Maharashtra' 
+ORDER BY FirstName
+Go
+
+select * -- UC-8 Sort FirstName using State 
+From Address_Book_Table
+Where City='Nagpur' 
+ORDER BY FirstName
+Go
