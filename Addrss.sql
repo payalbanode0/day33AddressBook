@@ -29,13 +29,13 @@ values('erina','disco','torento','torento','Ontario',205532,'918978977310','erin
 Go
 
 Update Address_Book_Table -- UC-4 Editing Data using FirstName
-Set City='Warangal'
-where FirstName='Manoj'
+Set City='nagpur'
+where FirstName='payal'
 Go
 
 Delete -- UC-5-Delete Record Using FirstName
 from Address_Book_Table
-Where FirstName='Manu'
+Where FirstName='pooja'
 Go
 
 Select * 
