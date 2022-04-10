@@ -64,8 +64,26 @@ Where _State='Maharashtra'
 ORDER BY FirstName
 Go
 
+
 select * -- UC-8 Sort FirstName using State 
 From Address_Book_Table
 Where City='Nagpur' 
 ORDER BY FirstName
+Go
+
+Alter Table Address_Book_Table--UC-9 Add Coulumn 
+Add RelationType varchar(20) default 'Null'
+Go
+Update Address_Book_Table
+Set RelationType ='Family'
+Where FirstName ='pooja'
+Go
+
+Update Address_Book_Table
+Set RelationType ='Friend'
+Where FirstName ='erina'
+Go
+
+Select *
+From Address_Book_Table
 Go
