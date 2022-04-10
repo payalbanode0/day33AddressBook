@@ -15,22 +15,27 @@ email varchar(50)
 
 Insert into Address_Book_Table --UC-3 Insert Data to Table
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
-values('Manoj','Thiparapu','25-4-710 warangal','Kazipet','Telangana',506003,'918106529025','manojthiparapu@gmail.com')
+values('payal','Banode','16nagpur','nagpur','Maharashtra',440034,'8139753564','payalbanode0@gmail.com')
 Go
 
 Insert into Address_Book_Table 
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
-values('Laxmi','Thiparapu','25-4-710 warangal','Kazipet','Telangana',506003,'918008144657','laxmithiparapu@gmail.com')
+values('pooja','Monase','nagpur','nagpur','maharashtra',440034,'918008144657','poojamonase@gmail.com')
 Go
 
 Insert into Address_Book_Table 
 (FirstName,LastName,_address,City,_State,Zip,PhoneNumber,email) 
-values('Manu','Thiparapu','torento','torento','Ontario',205532,'918978977310','manuthiparapu@gmail.com')
+values('erina','disco','torento','torento','Ontario',205532,'918978977310','erina@gmail.com')
 Go
 
 Update Address_Book_Table -- UC-4 Editing Data using FirstName
 Set City='Warangal'
 where FirstName='Manoj'
+Go
+
+Delete -- UC-5-Delete Record Using FirstName
+from Address_Book_Table
+Where FirstName='Manu'
 Go
 
 Select * 
