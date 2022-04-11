@@ -101,3 +101,23 @@ Go
 
 select *
 From Address_Book_Table
+
+create Table AddressBook2
+(FirstName varchar(50) ,
+RelationType varchar(20),
+Foreign key(FirstName) References Address_Book_Table(FirstName)
+)
+Go
+
+Insert into AddressBook2(FirstName,RelationType) values('erina','Family,Friend')
+Go
+Insert into AddressBook2(FirstName,RelationType) values('pooja','Family')
+Go
+Insert into AddressBook2(FirstName,RelationType) values('Payal',NULL)
+Go
+Insert into AddressBook2(FirstName,RelationType) values('mona','Family')
+Go
+select *
+From Address_Book_Table
+select *
+From AddressBook2
